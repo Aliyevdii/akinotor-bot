@@ -11,8 +11,8 @@ my_db = my_client["aki-db"]
 
 def addUser(user_id: int, first_name: str, last_name: str, user_name: str) -> None:
     """
-    Adding the User to the database. If user already present in the database,
-    it will check for any changes in the user_name, first_name, last_name and will update if true.
+    İstifadəçinin verilənlər bazasına əlavə edilməsi. Əgər istifadəçi artıq verilənlər bazasındadırsa,
+    hər hansı dəyişikliyi yoxlayacaq user_name, first_name, last_name və doğrudursa, yenilənəcək.
     """
     #"Users" Collection (Table).
     my_col = my_db["users"]
