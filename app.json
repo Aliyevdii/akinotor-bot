@@ -1,23 +1,23 @@
 {
-  "name": "AKINATOR BOT",
-  "description": "A telegram bot made with python, to play Akinator game",
+  "name": "Game Nexus Bot",
+  "description": "Akinator oyununu oynamaq üçün python ilə hazırlanmış teleqram botu",
   "logo": "https://telegra.ph/file/a180962aa6ffd43f0c698.jpg",
     "keywords": [
     "telegram",
     "Bot",
     "Akinator"
   ],
-  "repository": "https://github.com/adenosinetp10/Akinator-Bot",
-  "website": "https://github.com/adenosinetp10",
-  "success_url": "https://t.me/atpnull",
+  "repository": "https://github.com/Aliyevdii/akinotor-bot",
+  "website": "https://github.com/Aliyevdii/akinotor-bot",
+  "success_url": "https://t.me/A_l_i_y_e_v_d_i",
   "env": {
     "aki_mongo_host": {
-      "description": "Put your MONGODB url",
+      "description": "MONGODB URL-nizi qoyun",
       "value": "",
       "required": true
     },
     "bot_token": {
-      "description": "Your bot token",
+      "description": "Sizin bot nişanınız",
       "value": "",
       "required": true
     }
